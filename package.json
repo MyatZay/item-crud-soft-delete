@@ -1,0 +1,20 @@
+{
+  "name": "item-crud-soft-delete",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "db:memory": "node scripts/start-memory-mongodb.mjs",
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "mongodb": "^6.18.0",
+    "next": "^16.3.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^11.2.0"
+  }
+}
